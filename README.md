@@ -57,3 +57,35 @@ Spam-Detector-Project/
 ├── spam_detection.ipynb # Notebook with full pipeline code
 ├── svm_spam_model.pkl # Trained & serialized model pipeline
 └── app.py # Streamlit app (optional UI deployment)
+
+
+
+---
+
+## What This Project Demonstrates
+- Practical **NLP pipeline construction**
+- ML model comparison for **text classification**
+- Proper handling of **class imbalance using stratify split**
+- Debugging of file paths and missing dependencies
+- Model serialization for **real-world deployment scenarios**
+- Insight generation from **misclassification samples**
+
+---
+
+## Future Enhancements
+This pipeline can be extended into:
+- **FastAPI ML model serving**
+- **Docker containerization**
+- **Streamlit Cloud deployment**
+- **Transformer-based spam detection (BERT)**
+- **Real-time IMAP/SMTP email scanning**
+- **Explainable AI dashboards for spam reasoning**
+
+---
+
+## How to Run Locally
+### 1. Install dependencies
+```sh
+pip install -r requirements.txt
+streamlit run app.py
+
