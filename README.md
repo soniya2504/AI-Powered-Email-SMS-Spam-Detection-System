@@ -50,3 +50,10 @@ The project is part of a **Data Science & NLP portfolio**, demonstrating practic
 ---
 
 ## Project Structure
+Spam-Detector-Project/
+│
+├── spam mail.csv # Original dataset
+├── cleaned_spam_mail.csv # Cleaned dataset
+├── spam_detection.ipynb # Notebook with full pipeline code
+├── svm_spam_model.pkl # Trained & serialized model pipeline
+└── app.py # Streamlit app (optional UI deployment)
