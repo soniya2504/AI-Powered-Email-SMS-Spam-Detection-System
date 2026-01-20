@@ -89,5 +89,5 @@ This pipeline can be extended into:
 pip install -r requirements.txt
 streamlit run app.py
 
-
+..............
 
